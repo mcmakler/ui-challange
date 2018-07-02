@@ -1,0 +1,28 @@
+# OSX
+.DS_Store
+
+# NPM
+node_modules
+npm-debug.log
+
+# Build dir
+www
+dist
+
+.cache
+
+# sass
+.sass-cache
+
+# editor
+*.sublime-workspace
+.idea
+/typings
+devdist
+coverage
+.vscode
+
+jest_*
+
+
+*-error.log
