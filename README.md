@@ -3,6 +3,7 @@ UI code challenge.
 
 ## The task
 The challenge is to achieve a responsive design as per the screens present in the assets directory. The screens are provided for 3 different resolutions. There is no need for implementing the undelying functionality.
+
 This is a helper repo to get you started with.
 Prerequisite
 [Node JS](https://nodejs.org/en/). 
