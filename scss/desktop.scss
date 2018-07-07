@@ -1,0 +1,55 @@
+@import "./breakpoints.scss";
+
+@include desktop() {
+  .header {
+    .hotline {
+      .label {
+        margin-right: 40px;
+        display: block;
+      }
+    }
+  }
+
+  .main-content {
+    border: 1px solid #e9e9e9;
+    margin-bottom: 40px;
+    .info {
+      margin: 30px;
+
+      .photo {
+        width: 170px;
+      }
+
+      .download .btn {
+        width: auto;
+      }
+
+      & > * {
+        width: auto;
+      }
+
+      .detail-item {
+        .detail-label {
+          width: 30%;
+        }
+      }
+    }
+
+    .list-total {
+      margin: 0 30px 20px;
+    }
+
+    .list-main {
+      .list-item {
+        padding: 10px 30px;
+      }
+
+      .file-info {
+        display: flex;
+        .file-name {
+          width: 30%;
+        }
+      }
+    }
+  }
+}

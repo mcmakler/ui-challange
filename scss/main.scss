@@ -1,3 +1,5 @@
-p {
-    color: green;
-}
+@import "./base.scss";
+@import "./components.scss";
+@import "./mobile.scss";
+@import "./tablet.scss";
+@import "./desktop.scss";

@@ -1,0 +1,41 @@
+@import "./breakpoints.scss";
+
+@include tablet() {
+  .header {
+    padding: 5px 15px 25px;
+
+    .hotline {
+      font-size: 20px;
+
+      .number {
+        display: block;
+        margin-left: 20px;
+        text-decoration: underline;
+        color: #3d3271;
+      }
+    }
+  }
+
+  .description {
+    .sub-title {
+      display: block;
+    }
+  }
+
+  .main-content {
+    .info {
+      .photo {
+        width: 270px;
+      }
+
+      .detail {
+        flex: 1;
+        margin-left: 20px;
+      }
+
+      .download .btn {
+        width: 270px;
+      }
+    }
+  }
+}

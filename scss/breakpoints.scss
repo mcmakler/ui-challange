@@ -1,0 +1,20 @@
+$desktop: 1200px;
+$tablet: 768px;
+
+@mixin respond-to($breakpoint) {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @include respond-to($tablet) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @include respond-to($desktop) {
+    @content;
+  }
+}
