@@ -1,0 +1,70 @@
+.btn {
+  padding: 15px 20px;
+  background-color: #f4bc41;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 2px;
+  box-shadow: 0px 1px 0px #ddaa3a;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.file-type {
+  font-size: 22px;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  border-radius: 50%;
+  background-color: #f3f3f3;
+  text-align: center;
+  position: relative;
+
+  &::before {
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 10px;
+  }
+
+  &.pdf {
+    color: #be291d;
+    &::before {
+      content: 'PDF';
+    }
+  }
+
+  &.pic {
+    color: #f7c948;
+    &::before {
+      content: 'PIC';
+    }
+  }
+
+  &.doc {
+    color: #417cde;
+    &::before {
+      content: 'DOC';
+    }
+  }
+
+  &.pp {
+    color: #f29e39;
+    &::before {
+      content: 'PP';
+    }
+  }
+
+  &.zip {
+    color: #000;
+    &::before {
+      content: 'ZIP';
+    }
+  }
+}

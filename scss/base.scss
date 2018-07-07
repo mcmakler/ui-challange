@@ -1,0 +1,25 @@
+@import "./breakpoints.scss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+
+  @include desktop() {
+    width: 1160px;
+  }
+}
+
+.flex-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}

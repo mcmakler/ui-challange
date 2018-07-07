@@ -4,14 +4,141 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title></title>
+  <title>McMakler</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-  <p>Hello world!</p>
+  <header class="header flex-container">
+    <div class="logo">
+      <img src="./assets/logo.png" alt="logo" />
+    </div>
+    <div class="hotline flex-container">
+      <div class="label">Kostenlose Service-Hotline</div>
+      <i class="fa fa-phone" aria-hidden="true"></i>
+      <div class="number">0800 500 80 02</div>
+    </div>
+  </header>
 
+  <div class="container">
+    <div class="description">
+      <h2 class="title">Vielen Dank für Ihr Interesse <p class="sub-title">an der von uns angebotenen Immobilie.</p></h2>
+      <p class="detail">Im Folgenden finden Sie alle verfügbaren Unterlagen zum Downoad.</p>
+    </div>
+
+    <div class="main-content">
+      <div class="info flex-container">
+        <div class="photo">
+          <img src="./assets/house.png" alt="house">
+        </div>
+        <ul class="detail">
+          <li class="detail-item flex-container">
+            <label class="detail-label">OUR ID</label>
+            <p class="detail-value">123456789</p>
+          </li>
+          <li class="detail-item flex-container">
+            <label class="detail-label">ADDRESS</label>
+            <p class="detail-value">Finkenweg 81 a, 12357 Berlin</p>
+          </li>
+          <li class="detail-item flex-container">
+            <label class="detail-label">PRICE</label>
+            <p class="detail-value">2130.000 €</p>
+          </li>
+          <li class="detail-item flex-container">
+            <label class="detail-label">TOTAL FLOR SPACE</label>
+            <p class="detail-value">254 M2</p>
+          </li>
+          <li class="detail-item flex-container">
+            <label class="detail-label">ROOMS</label>
+            <p class="detail-value">7</p>
+          </li>
+        </ul>
+        <div class="download">
+          <button class="btn">DOWNLOAD EXPOSE</button>
+        </div>
+      </div>
+      <div class="list">
+        <div class="list-total flex-container">
+          <input type="checkbox" name="" id=""> 0/5
+        </div>
+        <ul class="list-main">
+          <li class="list-item flex-container">
+            <input type="checkbox">
+            <div class="file-type pdf">
+              <i class="fa fa-file" aria-hidden="true"></i>
+            </div>
+            <div class="file-info">
+              <div class="file-name">Test Street 123</div>
+              <div class="file-description">Building Plan, Images, Ground Plot, Entry in the land register</div>
+            </div>
+            <div class="action">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              <i class="fa fa-download" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li class="list-item flex-container">
+            <input type="checkbox">
+            <div class="file-type pic">
+              <i class="fa fa-file" aria-hidden="true"></i>
+            </div>
+            <div class="file-info">
+              <div class="file-name">Energy Certificate</div>
+              <div class="file-description">Energy Certificate</div>
+            </div>
+            <div class="action">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              <i class="fa fa-download" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li class="list-item flex-container">
+            <input type="checkbox">
+            <div class="file-type doc">
+              <i class="fa fa-file" aria-hidden="true"></i>
+            </div>
+            <div class="file-info">
+              <div class="file-name">OA Paper</div>
+              <div class="file-description">OA Paper</div>
+            </div>
+            <div class="action">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              <i class="fa fa-download" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li class="list-item flex-container">
+            <input type="checkbox">
+            <div class="file-type pp">
+              <i class="fa fa-file" aria-hidden="true"></i>
+            </div>
+            <div class="file-info">
+              <div class="file-name">Innenraum</div>
+              <div class="file-description">Floorplan</div>
+            </div>
+            <div class="action">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              <i class="fa fa-download" aria-hidden="true"></i>
+            </div>
+          </li>
+          <li class="list-item flex-container">
+            <input type="checkbox">
+            <div class="file-type zip">
+              <i class="fa fa-file" aria-hidden="true"></i>
+            </div>
+            <div class="file-info">
+              <div class="file-name">Fotosession</div>
+              <div class="file-description">92 Fotos, innenansicht, aurienansicht</div>
+            </div>
+            <div class="action">
+              <i class="fa fa-eye" aria-hidden="true"></i>
+              <i class="fa fa-download" aria-hidden="true"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
   <script src="./index.js"></script>
 </body>
 
